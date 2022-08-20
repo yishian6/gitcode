@@ -1,11 +1,12 @@
  public Class HelloWorld{
       public static void main(String[] args){
            System.out.println("Hello World!!!");
-	   HelloWorld hello = new HelloWorld();
-	   hello.doSome();
-	   hello.doSome1("China");
-	   hello.doSome2("Asia");
-	   hello.doSome3("github");
+	       HelloWorld hello = new HelloWorld();
+	       hello.doSome();
+	       hello.doSome1("China");
+	       hello.doSome2("Asia");
+	       hello.doSome3("github");
+	   hello.doSome4("gitee");
            System.out.println("Hello NJUPT!!!"); 
            System.out.println("master modify!!!");
       }
@@ -23,6 +24,10 @@
           System.out.println("Hello,"+word);
       }
       public void doSome3(String word){
+          System.out.println("Hello,"+word);
+      }
+	  
+      public void doSome4(String word){
           System.out.println("Hello,"+word);
       }
  }

@@ -5,6 +5,7 @@
 	   hello.doSome();
 	   hello.doSome1("China");
 	   hello.doSome2("Asia");
+	   hello.doSome3("github");
            System.out.println("Hello NJUPT!!!"); 
            System.out.println("master modify!!!");
       }
@@ -19,6 +20,9 @@
       }
       
       public void doSome2(String word){
+          System.out.println("Hello,"+word);
+      }
+      public void doSome3(String word){
           System.out.println("Hello,"+word);
       }
  }

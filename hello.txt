@@ -3,10 +3,15 @@
            System.out.println("Hello World!!!");
 	   HelloWorld hello = new HelloWorld();
 	   hello.doSome();
+	   hello.doSome1("China");
            System.out.println("Hello NJUPT!!!");
       }
 
       public void doSome(){
            System.out.println("Hello Git!!!")
+      }
+
+      public void doSome1(String name){
+          System.out.println("Hello,"+name);
       }
  }

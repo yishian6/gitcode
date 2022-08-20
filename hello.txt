@@ -8,7 +8,8 @@
       }
 
       public void doSome(){
-           System.out.println("Hello Git!!!")
+           System.out.println("Hello Git!!!");
+           System.out.println("hot-fix modify!!!");
       }
 
       public void doSome1(String name){

@@ -1,6 +1,12 @@
  public Class HelloWorld{
       public static void main(String[] args){
            System.out.println("Hello World!!!");
+	   HelloWorld hello = new HelloWorld();
+	   hello.doSome();
            System.out.println("Hello NJUPT!!!");
+      }
+
+      public void doSome(){
+           System.out.println("Hello Git!!!")
       }
  }

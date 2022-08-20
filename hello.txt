@@ -4,7 +4,8 @@
 	   HelloWorld hello = new HelloWorld();
 	   hello.doSome();
 	   hello.doSome1("China");
-           System.out.println("Hello NJUPT!!!");
+           System.out.println("Hello NJUPT!!!"); 
+           System.out.println("master modify!!!");
       }
 
       public void doSome(){
